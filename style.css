@@ -1,13 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.navbar{
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.navbar p{
+    font-size: x-large;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
 #container{
     height: 200px;
     display: flex;
     align-items: flex-end;
-}
-
-body{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 .bar{
